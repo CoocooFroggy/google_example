@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!-- Copyright 2013 The Flutter Authors. All rights reserved.
+Use of this source code is governed by a BSD-style license that can be
+found in the LICENSE file. -->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <base href="$FLUTTER_BASE_HREF">
+  <meta name="google-signin-client_id" content="463004516546-s53c5vspfr7oj8o2bs1sr1292j9c7cfv.apps.googleusercontent.com">
+  <title>Google Sign-in Example</title>
+  <script src="flutter.js" defer></script>
+</head>
+<body>
+<script>
+  window.addEventListener('load', function(ev) {
+    _flutter.loader.loadEntrypoint({
+      onEntrypointLoaded: function(engineInitializer) {
+        engineInitializer.autoStart();
+      }
+    });
+  });
+</script>
+</body>
+</html>
