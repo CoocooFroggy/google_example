@@ -9,5 +9,6 @@ fi
 ls
 flutter/bin/flutter doctor
 flutter/bin/flutter clean
-flutter/bin/flutter config --enable-web
+flutter/bin/flutter pub get
+flutter/bin/flutter create . --org google_example --platform web
 flutter/bin/flutter build web --web-renderer canvaskit --release --base-href '/google_example/'
