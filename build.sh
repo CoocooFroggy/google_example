@@ -3,7 +3,7 @@
 if cd flutter; then
   git pull && cd ..
 else
-  git clone https://github.com/flutter/flutter.git
+  git clone -b stable https://github.com/flutter/flutter.git
 fi
 
 ls
